@@ -1,0 +1,135 @@
+.movie-detail-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #000;
+  align-items: center;
+}
+
+@media screen and (max-width: 766px) {
+  .movie-detail-container {
+  }
+}
+
+.movie-success-view-details-container {
+  width: 90%;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-success-view-details-container {
+    width: 90%;
+    max-width: 1110px;
+  }
+}
+
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #444242;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(204, 198, 198, 0.1);
+}
+
+@media screen and (min-width: 768px) {
+  .movie-details-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.movie-details-overview-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.movie-poster {
+  width: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.movie-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.movie-overview {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+  max-width: 400px;
+}
+
+.movie-rating {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(63, 150, 237);
+}
+
+.movie-runtime,
+.movie-tagline,
+.movie-release-date {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 400;
+}
+.movie-relase-date {
+  color: #fff;
+}
+.overview-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.overview-header {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.movie-backdrop-path {
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .movie-backdrop-path {
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+}
+.cast-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.cast-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
